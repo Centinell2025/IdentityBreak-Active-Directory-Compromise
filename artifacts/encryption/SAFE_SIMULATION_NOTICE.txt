@@ -1,0 +1,3 @@
+TRAINING NOTICE
+
+No ransomware executable is included in IdentityBreak. The encryption_events.csv records and .locked references are synthetic observations representing the forensic effects of a selective encryption event. Students analyze the evidence only. They are not expected to execute malware or reproduce destructive behavior.
