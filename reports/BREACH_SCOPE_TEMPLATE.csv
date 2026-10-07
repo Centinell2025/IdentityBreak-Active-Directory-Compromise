@@ -1,0 +1,12 @@
+entity,type,classification,confidence,supporting_event_ids,reasoning,evidence_gap
+WIN-FIN-04,host,,,,,
+ADMIN-01,host,,,,,
+DC-01,host,,,,,
+DC-02,host,,,,,
+FILE-01,host,,,,,
+APP-01,host,,,,,
+aortiz,identity,,,,,
+lchen,identity,,,,,
+Finance FY26,data,,,,,
+Legal contracts,data,,,,,
+HR exports,data,,,,,
