@@ -1,0 +1,5 @@
+gap_id,source,window_utc,observation,impact
+G001,FILE-01 Security log,10:26:08-10:29:40,Local events unavailable after recorded log clear,Reduces local attribution detail
+G002,Proxy payload,10:20:00-10:26:00,Request bodies not retained,Cannot map outbound bytes directly to staged archive contents
+G003,Memory acquisition,incident window,No volatile-memory image supplied,No direct process-memory or token analysis
+G004,External destination,incident window,No server-side logs from fictional external endpoint,Successful HTTP status alone does not prove complete file reconstruction
