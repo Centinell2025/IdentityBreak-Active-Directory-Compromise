@@ -1,0 +1,5 @@
+event_id,timestamp_utc,host,actor,source_scope,operation,observed_bytes,destination_artifact,classification
+C001,2026-09-23T10:17:02Z,FILE-01,aortiz,finance/FY26;legal/contracts;hr/exports,ENUMERATE,0,,Mixed sensitive labels
+C002,2026-09-23T10:18:11Z,FILE-01,aortiz,selected files,COLLECTION_START,4194304,/ProgramData/Cache/job_review_0923.zip,Potential staging
+C003,2026-09-23T10:19:08Z,FILE-01,aortiz,selected files,COLLECTION_UPDATE,7340032,/ProgramData/Cache/job_review_0923.zip,Potential staging
+C004,2026-09-23T10:25:31Z,FILE-01,aortiz,/ProgramData/Cache/job_review_0923.zip,DELETE,7340032,,Staging artifact deleted
