@@ -1,0 +1,8 @@
+event_id,timestamp_utc,domain_controller,actor,target_object,operation,detail,source_host
+D001,2026-09-23T09:07:11Z,DC-01,aortiz,Servers-Operators,read,Approved inventory,ADMIN-01
+D002,2026-09-23T09:59:03Z,DC-01,svc_deploy,Applications-OU,read,Deployment inventory,AUT-01
+D003,2026-09-23T10:05:09Z,DC-02,aortiz,Remote-Support,member_added,lchen added,WIN-FIN-04
+D004,2026-09-23T10:09:41Z,DC-02,aortiz,Remote-Support,member_removed,lchen removed,WIN-FIN-04
+D005,2026-09-23T10:11:28Z,DC-02,aortiz,Job-Review-Temp,group_created,New security group,WIN-FIN-04
+D006,2026-09-23T10:11:56Z,DC-02,aortiz,Job-Review-Temp,member_added,lchen added,WIN-FIN-04
+D007,2026-09-23T10:16:08Z,DC-02,aortiz,Job-Review-Temp,read,Membership reviewed,ADMIN-01
