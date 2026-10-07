@@ -1,0 +1,6 @@
+event_id,timestamp_utc,host,actor,artifact,operation,detail
+PR001,2026-09-23T10:11:28Z,DC-02,aortiz,Job-Review-Temp,CREATE_GROUP,Security-enabled group created
+PR002,2026-09-23T10:11:56Z,DC-02,aortiz,Job-Review-Temp,ADD_MEMBER,lchen added
+PR003,2026-09-23T10:14:09Z,FILE-01,aortiz,finance/FY26,GRANT_READ,Job-Review-Temp granted read
+PR004,2026-09-23T10:16:08Z,DC-02,aortiz,Job-Review-Temp,READ,Group reviewed from ADMIN-01
+PR005,2026-09-23T10:42:00Z,DC-02,ir_team,Job-Review-Temp,DISABLE_FOR_REVIEW,Containment action after incident declaration
