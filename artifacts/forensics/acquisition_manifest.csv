@@ -1,0 +1,8 @@
+evidence_id,source,artifact,acquired_utc,method,integrity_state
+EV001,WIN-FIN-04,sysmon_like_events.jsonl,2026-09-23T11:12:00Z,Synthetic EDR export,training-master
+EV002,DC-01/DC-02,security_events.jsonl,2026-09-23T11:16:00Z,Synthetic security export,training-master
+EV003,FILE-01,usn_like_records.csv,2026-09-23T11:21:00Z,Synthetic USN-like parser output,training-master
+EV004,FILE-01,mft_like_metadata.csv,2026-09-23T11:22:00Z,Synthetic MFT-like parser output,training-master
+EV005,EDGE-01,cisco_asa_like.log,2026-09-23T11:27:00Z,Synthetic appliance export,training-master
+EV006,EDGE-01,netflow_like.csv,2026-09-23T11:28:00Z,Synthetic flow export,training-master
+EV007,Proxy,proxy_requests.csv,2026-09-23T11:29:00Z,Synthetic proxy export; clock unnormalized,training-master
