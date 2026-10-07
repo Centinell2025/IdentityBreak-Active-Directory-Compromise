@@ -1,0 +1,12 @@
+event_id,timestamp_utc,host,path,operation,size_bytes,actor,forensic_source
+F001,2026-09-23T10:14:37Z,FILE-01,/finance/FY26/forecast.xlsx,READ,483112,aortiz,USN-like synthetic timeline
+F002,2026-09-23T10:15:04Z,FILE-01,/finance/FY26/budget.xlsx,READ,822019,aortiz,USN-like synthetic timeline
+F003,2026-09-23T10:16:12Z,FILE-01,/legal/contracts/acquisition-draft.pdf,READ,2138112,aortiz,USN-like synthetic timeline
+F004,2026-09-23T10:16:54Z,FILE-01,/hr/exports/employee-contact-list.csv,READ,392181,aortiz,USN-like synthetic timeline
+F005,2026-09-23T10:18:11Z,FILE-01,/ProgramData/Cache/job_review_0923.zip,CREATE,4194304,aortiz,USN-like synthetic timeline
+F006,2026-09-23T10:19:08Z,FILE-01,/ProgramData/Cache/job_review_0923.zip,MODIFY,7340032,aortiz,USN-like synthetic timeline
+F007,2026-09-23T10:25:31Z,FILE-01,/ProgramData/Cache/job_review_0923.zip,DELETE,7340032,aortiz,USN-like synthetic timeline
+F008,2026-09-23T10:31:14Z,FILE-01,/finance/FY26/forecast.xlsx.locked,CREATE,483344,SYSTEM,USN-like synthetic timeline
+F009,2026-09-23T10:31:15Z,FILE-01,/finance/FY26/forecast.xlsx,DELETE,483112,SYSTEM,USN-like synthetic timeline
+F010,2026-09-23T10:31:22Z,FILE-01,/finance/FY26/budget.xlsx.locked,CREATE,822251,SYSTEM,USN-like synthetic timeline
+F011,2026-09-23T10:31:23Z,FILE-01,/finance/FY26/budget.xlsx,DELETE,822019,SYSTEM,USN-like synthetic timeline
