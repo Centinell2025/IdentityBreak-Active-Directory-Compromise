@@ -1,12 +1,19 @@
-# Evidence quality checklist
+# Senior DFIR Quality Checklist
 
-- [ ] All event times interpreted as UTC on 2026-09-23.
-- [ ] Each finding cites event IDs and filenames.
-- [ ] Privileged account activity is not automatically attributed to its human owner.
-- [ ] Legitimate maintenance and automation are evaluated.
-- [ ] Group changes and ACL changes are distinguished from file reads.
-- [ ] Network byte counts alone are not treated as data theft.
-- [ ] Missing payloads and unavailable logs are acknowledged.
-- [ ] Recommendations preserve evidence and avoid destructive actions.
+- [ ] I verified the evidence date and canonical UTC reference.
+- [ ] I identified and corrected the known clock offset before finalizing the timeline.
+- [ ] Every material finding cites exact artifact and record IDs.
+- [ ] I separated facts, inference, hypotheses, and claims.
+- [ ] I did not attribute account activity automatically to the account owner.
+- [ ] I considered legitimate admin, engineering, backup, and automation noise.
+- [ ] I distinguished discovery, access, staging, transfer attempt, and confirmed exfiltration.
+- [ ] I did not use network byte counts alone as proof of data theft.
+- [ ] I analyzed encryption using multiple evidence sources.
+- [ ] I documented missing or incomplete logs.
+- [ ] I assessed possible anti-forensic activity without overstating intent.
+- [ ] My breach scope includes confidence levels.
+- [ ] My containment plan preserves forensic evidence.
+- [ ] I identified additional evidence that would be required to raise confidence.
+- [ ] My executive conclusion can be reproduced from cited evidence.
 
-**Author TODO**: Verify current HTB Sherlock requirements, develop validated private answer key and official-style write-up, produce integrity hashes, perform playtesting, and package a password-protected ZIP. This repository is a development-stage candidate, not a submitted Sherlock.
+**Author-only TODO:** validate the private answer key, independently playtest all 15 questions, generate final hashes after evidence freeze, review current HTB Sherlock requirements, and build the final password-protected submission archive. Do not publish the solution in this public repository.
