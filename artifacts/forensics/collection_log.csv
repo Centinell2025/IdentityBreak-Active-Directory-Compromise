@@ -1,0 +1,6 @@
+item_id,collected_utc,source_system,artifact,collection_method,analyst_note
+COL001,2026-09-23T11:12:00Z,WIN-FIN-04,process_events.csv,Synthetic EDR export,Read-only export
+COL002,2026-09-23T11:16:00Z,DC-01/DC-02,authentication.csv;directory_audit.csv,Synthetic Windows audit export,Domain sources
+COL003,2026-09-23T11:21:00Z,FILE-01,file_timeline.csv;server_audit.csv,Synthetic forensic export,Preserved before remediation simulation
+COL004,2026-09-23T11:27:00Z,Network,dns_queries.csv;firewall_flows.csv;proxy_requests.csv,Synthetic appliance export,Proxy time not normalized
+COL005,2026-09-23T11:31:00Z,FILE-01,encryption_events.csv;anti_forensics.csv,Synthetic forensic export,No executable malware collected
