@@ -1,0 +1,12 @@
+asset,role,segment,ipv4,owner_context,criticality
+WIN-FIN-04,Finance workstation,VLAN10,10.20.10.14,lchen,High
+WIN-HR-02,HR workstation,VLAN10,10.20.10.22,ncole,Medium
+WIN-ENG-09,Engineering workstation,VLAN10,10.20.10.39,mrivera,Medium
+ADMIN-01,Privileged admin workstation,VLAN30,10.20.30.11,aortiz,Critical
+DC-01,Domain controller,VLAN20,10.20.20.10,Infrastructure,Critical
+DC-02,Domain controller,VLAN20,10.20.20.11,Infrastructure,Critical
+FILE-01,Enterprise file server,VLAN20,10.20.20.20,Finance/Cross-department,Critical
+APP-01,Internal scheduling server,VLAN20,10.20.20.25,Operations,High
+AUT-01,Approved automation runner,VLAN20,10.20.20.40,IT Operations,High
+BKP-01,Backup service,VLAN20,10.20.20.50,IT Operations,Critical
+SOC-01,Forensic analyst station,VLAN30,10.20.30.15,SOC,High
