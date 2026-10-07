@@ -1,0 +1,5 @@
+record_id,host,path,created_utc,modified_utc,entry_modified_utc,accessed_utc,size_bytes,status
+MFT001,FILE-01,/ProgramData/Cache/job_review_0923.zip,2026-09-23T10:18:11Z,2026-09-23T10:19:08Z,2026-09-23T10:25:31Z,2026-09-23T10:19:08Z,7340032,deleted
+MFT002,FILE-01,/finance/FY26/forecast.xlsx.locked,2026-09-23T10:31:14Z,2026-09-23T10:31:14Z,2026-09-23T10:31:14Z,2026-09-23T10:31:14Z,483344,present
+MFT003,FILE-01,/finance/FY26/budget.xlsx.locked,2026-09-23T10:31:22Z,2026-09-23T10:31:22Z,2026-09-23T10:31:22Z,2026-09-23T10:31:22Z,822251,present
+MFT004,FILE-01,/ProgramData/Cache,2026-08-01T14:11:00Z,2026-09-23T10:27:44Z,2026-09-23T10:27:44Z,2026-09-23T10:27:44Z,0,metadata-change-observed
