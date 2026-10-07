@@ -1,0 +1,5 @@
+proxy_event_id,appliance_time,source_host,destination,method,uri_label,status,bytes_sent,request_id
+PX001,2026-09-23T10:37:47,FILE-01,filesync-gateway.example,POST,/api/upload/chunk,200,1047211,RQ-914
+PX002,2026-09-23T10:40:20,FILE-01,filesync-gateway.example,POST,/api/upload/chunk,200,3144012,RQ-915
+PX003,2026-09-23T10:42:01,FILE-01,filesync-gateway.example,POST,/api/upload/chunk,502,781921,RQ-916
+PX004,2026-09-23T10:45:05,AUT-01,packages.example,GET,/approved/package,200,5112,RQ-920
