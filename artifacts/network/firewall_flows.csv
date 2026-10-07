@@ -1,0 +1,7 @@
+flow_id,timestamp_utc,source_host,source_ip,destination,destination_ip,destination_port,protocol,bytes_out,bytes_in,action,request_id
+FW001,2026-09-23T09:34:55Z,WIN-FIN-04,10.20.10.14,update-cdn.example,198.51.100.36,443,TCP,3381,9012,allowed,RQ-881
+FW002,2026-09-23T09:36:39Z,WIN-ENG-09,10.20.10.39,dev-ci.example,192.0.2.65,443,TCP,7921,28232,allowed,RQ-882
+FW003,2026-09-23T10:20:47Z,FILE-01,10.20.20.20,filesync-gateway.example,203.0.113.88,443,TCP,1048576,11821,allowed,RQ-914
+FW004,2026-09-23T10:23:20Z,FILE-01,10.20.20.20,filesync-gateway.example,203.0.113.88,443,TCP,3145728,9032,allowed,RQ-915
+FW005,2026-09-23T10:25:01Z,FILE-01,10.20.20.20,filesync-gateway.example,203.0.113.88,443,TCP,786432,4011,reset,RQ-916
+FW006,2026-09-23T10:28:05Z,AUT-01,10.20.20.40,packages.example,192.0.2.91,443,TCP,5121,240117,allowed,RQ-920
