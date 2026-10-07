@@ -1,0 +1,11 @@
+event_id,timestamp_utc,host,user,parent_process,process,command_summary
+P001,2026-09-23T08:44:11Z,WIN-HR-02,ncole,explorer.exe,excel.exe,Open HR roster
+P002,2026-09-23T09:05:12Z,ADMIN-01,aortiz,explorer.exe,mmc.exe,Open admin console
+P003,2026-09-23T09:34:02Z,WIN-FIN-04,lchen,explorer.exe,winword.exe,Open quarter-end memo
+P004,2026-09-23T09:34:41Z,WIN-FIN-04,lchen,winword.exe,powershell.exe,Hidden window; script from user temp folder
+P005,2026-09-23T09:35:10Z,WIN-FIN-04,lchen,powershell.exe,whoami.exe,Query principal
+P006,2026-09-23T09:36:09Z,WIN-ENG-09,mrivera,code.exe,powershell.exe,Signed engineering build script
+P007,2026-09-23T09:40:27Z,WIN-FIN-04,lchen,powershell.exe,nltest.exe,Domain controller discovery
+P008,2026-09-23T09:58:51Z,AUT-01,svc_deploy,taskeng.exe,powershell.exe,Approved application deployment
+P009,2026-09-23T10:02:08Z,WIN-FIN-04,lchen,cmd.exe,net.exe,Enumerate local group membership
+P010,2026-09-23T10:13:31Z,FILE-01,aortiz,services.exe,cmd.exe,Remote admin job; incomplete command context
