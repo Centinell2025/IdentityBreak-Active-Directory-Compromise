@@ -1,0 +1,6 @@
+event_id,timestamp_utc,host,actor,observation,source,confidence
+AF001,2026-09-23T10:25:31Z,FILE-01,aortiz,Staging archive deletion recorded after outbound sessions,File-system timeline,High
+AF002,2026-09-23T10:26:08Z,FILE-01,aortiz,Security log clear event recorded,Windows audit synthetic record,High
+AF003,2026-09-23T10:26:10Z,FILE-01,SYSTEM,Local security log sequence resumes with gap,Collection metadata,Medium
+AF004,2026-09-23T10:27:44Z,FILE-01,aortiz,Timestamp metadata update observed on temporary working directory,File-system timeline,Medium
+AF005,2026-09-23T10:27:45Z,FILE-01,,Intent behind metadata update cannot be determined from supplied evidence,Analyst caveat,Low
