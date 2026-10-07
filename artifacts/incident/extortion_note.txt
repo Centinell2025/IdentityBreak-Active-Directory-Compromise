@@ -1,0 +1,5 @@
+IDENTITYBREAK TRAINING ARTIFACT
+
+We accessed internal records and locked selected files. Data was taken outside the network.
+
+This text is a fictional attacker claim included for forensic training. It is not evidence that the claim is true. No payment address, contact channel, executable code, or operational instruction is included.
