@@ -1,0 +1,9 @@
+source_id,source_family,display_clock_reference,collection_note
+T001,endpoint,UTC,EDR records normalized during collection
+T002,windows_auth,UTC,Domain time source verified
+T003,directory,UTC,Domain time source verified
+T004,server_audit,UTC,Server synchronized to domain
+T005,dns,UTC,Resolver exported in UTC
+T006,firewall,UTC,Network appliance exported in UTC
+T007,proxy,LOCAL_APPLIANCE_CLOCK,Offset not corrected in exported CSV; correlate shared request IDs to determine offset
+T008,file_timeline,UTC,Forensic parser normalized timestamps
