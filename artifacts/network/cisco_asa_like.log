@@ -1,0 +1,7 @@
+2026-09-23T09:34:55Z EDGE-01 ASA-LIKE Built outbound TCP 10.20.10.14:51422 -> 198.51.100.36:443 conn=CN881 bytes_out=3381 bytes_in=9012 action=allow
+2026-09-23T09:36:39Z EDGE-01 ASA-LIKE Built outbound TCP 10.20.10.39:51509 -> 192.0.2.65:443 conn=CN882 bytes_out=7921 bytes_in=28232 action=allow
+2026-09-23T10:20:47Z EDGE-01 ASA-LIKE Built outbound TCP 10.20.20.20:52331 -> 203.0.113.88:443 conn=CN914 bytes_out=1048576 bytes_in=11821 action=allow
+2026-09-23T10:23:20Z EDGE-01 ASA-LIKE Built outbound TCP 10.20.20.20:52382 -> 203.0.113.88:443 conn=CN915 bytes_out=3145728 bytes_in=9032 action=allow
+2026-09-23T10:25:01Z EDGE-01 ASA-LIKE Teardown TCP 10.20.20.20:52401 -> 203.0.113.88:443 conn=CN916 reason=reset bytes_out=786432 bytes_in=4011
+2026-09-23T10:28:05Z EDGE-01 ASA-LIKE Built outbound TCP 10.20.20.40:52544 -> 192.0.2.91:443 conn=CN920 bytes_out=5121 bytes_in=240117 action=allow
+# Synthetic Cisco-ASA-like training log; not exported from a real appliance.
