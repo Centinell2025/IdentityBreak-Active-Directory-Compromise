@@ -1,0 +1,5 @@
+event_id,timestamp_utc,host,source_path,result_path,original_size,result_size,entropy_before,entropy_after,status
+E001,2026-09-23T10:31:14Z,FILE-01,/finance/FY26/forecast.xlsx,/finance/FY26/forecast.xlsx.locked,483112,483344,5.21,7.98,simulated_encryption_effect
+E002,2026-09-23T10:31:22Z,FILE-01,/finance/FY26/budget.xlsx,/finance/FY26/budget.xlsx.locked,822019,822251,5.44,7.99,simulated_encryption_effect
+E003,2026-09-23T10:31:38Z,FILE-01,/finance/FY26/revenue-model.xlsx,/finance/FY26/revenue-model.xlsx.locked,1003811,1004043,5.38,7.97,simulated_encryption_effect
+E004,2026-09-23T10:32:04Z,FILE-01,/legal/contracts/acquisition-draft.pdf,/legal/contracts/acquisition-draft.pdf.locked,2138112,2138344,6.11,7.99,simulated_encryption_effect
