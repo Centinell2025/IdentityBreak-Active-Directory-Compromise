@@ -1,0 +1,43 @@
+name: Validate IdentityBreak DFIR materials
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-materials:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate lab structure and evidence
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import csv
+          root=Path('.')
+          required=[
+            'README.md','questions/QUESTIONS.md','scenario/CASE_BRIEF.md',
+            'scenario/ASSET_INVENTORY.csv','validation/EVIDENCE_MATRIX.md',
+            'validation/PLAYTEST_CRITERIA.md','validation/STUDENT_CHECKLIST.md',
+            'reports/INCIDENT_REPORT_TEMPLATE.md','artifacts/README.md']
+          for p in required:
+              f=root/p
+              assert f.is_file() and f.stat().st_size>0, f'Missing or empty: {p}'
+          labs=sorted((root/'lab').glob('LAB_[0-9][0-9]_*.md'))
+          assert len(labs)==14, f'Expected 14 labs; found {len(labs)}'
+          for f in labs:
+              assert f.stat().st_size>150, f'Too short: {f}'
+          evidence=[p for p in (root/'artifacts').rglob('*') if p.is_file() and p.name!='README.md']
+          assert evidence, 'No evidence files found'
+          for p in evidence:
+              assert p.stat().st_size>0, f'Empty evidence: {p}'
+              if p.suffix.lower()=='.csv':
+                  with p.open(encoding='utf-8-sig',newline='') as h:
+                      rows=list(csv.reader(h))
+                  assert rows and len(rows[0])>=1, f'Invalid CSV: {p}'
+          print(f'PASS: {len(labs)} labs, {len(evidence)} non-empty evidence files, required documents present.')
+          print('Scope: structural and CSV readability only; not proof of forensic question solvability or HTB acceptance.')
+          PY
